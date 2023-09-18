@@ -1,15 +1,16 @@
-<table border ="1" width = "100%">    
+<table  width = "100%">    
     <tr>
         <td valign ="top"><ul>
-            <li><a href="/Kanbas/index.html">Account</a></li>
+            <li><a href="/Kanbas/Account/Profile/index.html">Account</a></li>
           <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
             <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
         </ul></td>
         <td valign ="top"><ul>
             <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-              <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+            <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+              <li><a href="/Kanbas/Courses/Assignments/index.html">Assignments</a></li>
+              <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+              <li><a href="/Kanbas/Courses/Settings/index.html">Settings</a></li>
         
         </ul></td>
         <td valign ="top"><label for = "assignmentname">Assignment name</label><br/>
@@ -20,30 +21,60 @@
             </textarea>
             <h3>Points</h3><br/>
             <input value = "100" type = "number" max = "100" min ="50" step = "5"/>
+            <h3>Assignment Group</h3>
+            <select id="Group">
+                  <option value="ASSIGNMENTS">ASSIGNMENTS</option>
+               </select>
+               <br/>
+               <h3>Display Grade As</h3>
+            <select id="Grade">
+                  <option value="percent">PERCENTAGE</option>
+            </select>
+            <br/>
             <h3>Submission Type</h3>
+            <select id="type">
+                  <option value="ONLINE">ONLINE</option>
+            </select>
+            <br/>   
+            <h3>Online Entry Options</h3>
             <input type = "checkbox" id = "textentry"/>
             <label for = "textentry">TextEntry</label><br/>
             <label ><input type = "checkbox" id = "WebUrl" checked/> WebURL</label><br/>
             <label><input type = "checkbox">Media Recordings</label><br/>
             <label><input type = "checkbox">FileUpload</label><br/>
             <br/>
-            <label>Favorite movie genre:</label><br/>
-            
-            <input type="radio" value="COMEDY"
-                  name="radio-genre" id="radio-comedy"/>
-            <label for="radio-comedy">Comedy</label><br/>
-            <input type="radio" value="DRAMA"
-                  name="radio-genre" id="radio-drama"/>
-            <label for="radio-drama">Drama</label><br/>
-            <input type="radio" value="SCIFI"
-                  name="radio-genre" id="radio-scifi" checked/>
-            <label for="radio-scifi">Science Fiction</label><br/>
-            <input type="radio" value="FANTASY"
-                  name="radio-genre" id="radio-fantasy"/>
-            <label for="radio-fantasy">Fantasy</label>
-            <br/><br/>
-            
-            
+            <h3>Submission Attempts</h3>
+            <select id="attempts">
+                  <option value="UNLIMITED">UNLIMITED</option>
+            </select>
+            <br/>  
+            <h3>Plaigiarism Review</h3>
+            <select id="Plaiga">
+                  <option value="NONE">NONE</option>
+            </select>
+            <br/>
+            <h3>Group Assignment</h3>
+            <label ><input type = "checkbox" id = "GroupAssignment" checked/> This is a group Assignment</label><br/>
+            <br/>  
+            <h3>Peer Reviews</h3>
+            <label ><input type = "checkbox" id = "Peer" checked/> Require Peer Reviews</label><br/>
+            <br/>
+            <form><label for="text-fields-due">
+                  Due
+               </label><br/>
+               <input type="date"
+                     id="text-fields-due"/><br/></form>
+                     <form><label for="text-fields-ave">
+                        Available From
+                     </label><br/>
+                     <input type="date"
+                           id="text-fields-ave"/><br/></form>
+                           <form><label for="text-fields-unt">
+                              Until
+                  </label><br/>
+                  <input type="date"id="text-fields-unt"/><br/></form>
+            <button onclick= "location.href = '/Kanbas/Courses/Assignments/index.html'">Cancel</button>
+            <button onclick= "location.href = '/Kanbas/Courses/Assignments/index.html'">Save</button>
             </td>
     </tr>
 </table>
