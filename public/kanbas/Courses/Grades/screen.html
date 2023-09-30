@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css" />
   </head>
   <body>
-    <div style="display: flex">
+    <div class="wd-flex-row-container">
+      <div class="wd-bg-color-black d-none d-md-block">
+
       <div class="wd-bg-color-black">
         <ul class="wd-kanbas-navigation">
           <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
           <li>
             <a href="/Kanbas/Dashboard/screen.html">
-              <i class="fa fa-tachometer" aria-hidden="true"></i>
+              <i class="fa fa-tachometer" aria-hidden="false"></i>
               Dashboard</a
             >
           </li>
@@ -29,6 +31,9 @@
           <li><a href="/Kanbas/Messages/screen.html">Messages</a></li>
         </ul>
       </div>
+      </div>
+   
+
       <div>
         <ul class="wd-course-navigation">
           <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
@@ -41,6 +46,7 @@
           </li>
         </ul>
       </div>
+      
       <div>
         <button>Import</button>
         <select>
