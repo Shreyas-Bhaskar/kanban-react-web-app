@@ -1,3 +1,4 @@
+function BooleanVariables(){
 let numberVariable = 123;
 let floatingPointNumber = 234.345;
 let true1 = true
@@ -25,3 +26,5 @@ return (
     notTrue   = {notTrue + ""}
   </div>
 );
+}
+export default BooleanVariables
