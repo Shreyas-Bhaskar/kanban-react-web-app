@@ -1,131 +1,177 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/KanbasNavigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/CourseNavigation/index.css" />  
+     <link rel="stylesheet" href="/vendors/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css" />
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+  <script src="https://kit.fontawesome.com/b2aad88d37.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   
+    <div class="d-block d-md-none">
+      
+      <a href="/Kanbas/KanbasNavigation">Kanbas Navigator</a>
+      <a href="/Kanbas/Courses/CourseNavigation">Course Navigator</a>
+    </div>
+    <div class="wd-flex-row-container">
+      <div class="wd-bg-color-black d-none d-md-block">
+        <ul class="wd-kanbas-navigation">
+          <l1><img src="/images/neufinal.png"
+            height="55px" width="75px" />
+        <br/></l1>
+          <li><a href="/Kanbas/Account/Profile/index.html">
+            <i class="fa-regular fa-circle-user" aria-hidden="true"></i>Account</a></li>
+          <li >
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer" aria-hidden="true"></i>
+              Dashboard</a
+            >
+          </li>
+          <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html">
+            <i class="fa-solid fa-book" aria-hidden="true"></i>Courses</a></li>
+          <li>
+            <a href="/Kanbas/Calendar/screen.html">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              Calendar
+            </a>
+          </li>
+          <li><a href="/Kanbas/Messages/screen.html">
+            <i class="fa-solid fa-envelope-open-text"></i></br>Inbox</a></li>
+          <li><a href="/Kanbas/History/screen.html">
+            <i class="fa-regular fa-clock" aria-hidden="true"></i>History</a></li>
+          <li><a href="/Kanbas/Studio/screen.html">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>Studio</a></li>
+          
+            <li><a href="/Kanbas/Commons/screen.html">
+              <i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>
+              Commons</a></li>
+          <li><a href="/Kanbas/Help/screen.html">
+            <i class="fa-regular fa-circle-question" aria-hidden="true"></i>
+          </br>Help</a></li>
+          
 
-<table width = "100%" >
-    <tr>
-        <td valign = "top"><ul>
-            <li><a href="/Kanbas/Account/Profile/index.html">Account</a></li>
-          <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
-            <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-        
-        </ul></td>
-        <td valign = "top"><ul>
-            <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-            <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
-              <li><a href="/Kanbas/Courses/Assignments/index.html">Assignments</a></li>
-              <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
-              <li><a href="/Kanbas/Courses/Settings/index.html">Settings</a></li>
-        
-        </ul></td>
-        <td valign = "top"><button>Import</button>
-            <select>
-                <option>Export</option>
-                <option>Unpublish</option>
-            </select>
-            <button>Configure</button>
-            <table width = "100%">
+
+
+        </ul>
+      </div>
+      <div>
+        <ul class="wd-course-navigation d-none d-md-block">
+          <li ><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+          <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+          <li >
+            <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+          </li>
+          <li class="wd-active"><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+        </ul>
+      </div>
+      <div>
+        <button>Import</button>
+        <select>
+          <option>Export</option>
+          <option>UnPublish</option>
+        </select>
+        <button>Configure</button>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                    Student Name
+                </th>
+                <th>A1 - HTML</th>
+                <th>A2 - CSS</th>
+                <th>A3 - JS</th>
+                <th>A4 - PHP</th>
+                <th>A5 - SQL</th>
+                <th>A6 - React</th>
+                <th>A7 - Node</th>
+                <th>A8 - Express</th>
+                <th>A9 - MongoDB</th>
+                <th>A10 - MongoDB</th>
+                <th>A11 - MongoDB</th>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th>Q4</th>
+                <th>Q5</th>
+                <th>Q6</th>
+                <th>Exam 1</th>
+                <th>Exam 2</th>
+                <th>Exam 3</th>
+                <th>Exam 4</th>
+                <th>Exam 5</th>
+                <th>Exam 6</th>
+             </tr></thead>
+             <tbody>
                 <tr>
-                    <td>Student Names<br/>
-                        <input title = "Type the name of student to search for"
-                        placeholder="Search Students"/>
-                    </td>
-                    <td>Assignment Names<br/>        
-                        <input title = "Type the name of Assignment to search for"
-                         placeholder="Search Assignments"/>
-                    </td>
+                    <td>Ian Hecox</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
                 </tr>
-            </table>
-            <button>Apply Filters</button>
-            <table width = "100%" border ="1">
-                 <thead><tr>
-                    <th>
-                        Student Name
-                    </th>
-                    <th>A1 - HTML</th>
-                    <th>A2 - CSS</th>
-                    <th>A3 - JS</th>
-                    <th>A4 - PHP</th>
-                    <th>A5 - SQL</th>
-                    <th>A6 - React</th>
-                    <th>A7 - Node</th>
-                    <th>A8 - Express</th>
-                    <th>A9 - MongoDB</th>
-                    <th>A10 - MongoDB</th>
-                    <th>A11 - MongoDB</th>
-                    <th>Q1</th>
-                    <th>Q2</th>
-                    <th>Q3</th>
-                    <th>Q4</th>
-                    <th>Q5</th>
-                    <th>Q6</th>
-                    <th>Exam 1</th>
-                    <th>Exam 2</th>
-                    <th>Exam 3</th>
-                    <th>Exam 4</th>
-                    <th>Exam 5</th>
-                    <th>Exam 6</th>
-                 </tr></thead>
-                 <tbody>
-                    <tr>
-                        <td>Ian Hecox</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                    </tr>
-                    <tr>
-                        <td>Ryan Higa</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                    </tr>
-                    <tr>
-                        <td>Anthony Padilla</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                        <td>99%</td>
-                    </tr>
-                 </tbody>
-            </table>
-            </td>
-    </tr>
-</table>
+                <tr>
+                    <td>Ryan Higa</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                </tr>
+                <tr>
+                    <td>Anthony Padilla</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+                    <td>99%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

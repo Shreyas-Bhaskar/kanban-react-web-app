@@ -1,0 +1,21 @@
+.wd-dashboard {
+    height: 300px;
+    width: 230px;
+    margin: 19px;
+}
+
+.wd-dashboard p.card-text-title {
+    font-size: 15px;
+    color:blue;
+}
+
+.wd-dashboard p.card-text-section {
+    font-size: 18px;
+    color: gray;
+}
+
+.wd-dashboard p.card-text-year {
+    font-size: 10px;
+    color: gray;
+}
+
