@@ -10,7 +10,7 @@ function WorkingWithObjects() {
     completed: false,
     score: 0,
   });
-  const URL = "http://localhost:4000/a5/assignment";
+  const URL = "https://kanbas-node-server-app-shreyas-6e1353c52b8f.herokuapp.com/a5/assignment";
   const fetchAssignment = async () => {
     const response = await axios.get(`${URL}`);
     setAssignment(response.data);
@@ -77,14 +77,14 @@ function WorkingWithObjects() {
       </button>
       <h4>Retrieving Objects</h4>
       <a
-        href="http://localhost:4000/a5/assignment"
+        href="https://kanbas-node-server-app-shreyas-6e1353c52b8f.herokuapp.com/a5/assignment"
         className="btn btn-primary me-2"
       >
         Get Assignment
       </a>
       <h4>Retrieving Properties</h4>
       <a
-        href="http://localhost:4000/a5/assignment/title"
+        href="https://kanbas-node-server-app-shreyas-6e1353c52b8f.herokuapp.com/a5/assignment/title"
         className="btn btn-primary me-2"
       >
         Get Title

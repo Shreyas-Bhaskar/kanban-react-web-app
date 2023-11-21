@@ -13,7 +13,7 @@ import axios from "axios";
 
 
 function Courses() {
-    const URL = "http://localhost:4000/api/courses";
+    const URL = "https://kanbas-node-server-app-shreyas-6e1353c52b8f.herokuapp.com/api/courses";
     const { courseId } = useParams();
     //const course = courses.find((course) => course._id === courseId);
 

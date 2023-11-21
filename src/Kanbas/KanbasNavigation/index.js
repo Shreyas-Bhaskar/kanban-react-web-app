@@ -11,7 +11,7 @@ import {
 import './index.css';
 function KanbasNavigation() {
     const links = [{
-        name: "", icon: <img src={"../images/northeastern.jpg"} width={80}/>
+        name: "", icon: <img src={"../images/neublack.png"} width={80}/>
     }, {
         name: "Account", icon: <FaUserAlt style={{color:"grey"}}/>
     }, {
