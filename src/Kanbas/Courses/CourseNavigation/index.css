@@ -8,6 +8,9 @@
   border-radius: 0px;
   border: none;
 }
+.separateLinks {
+  margin-bottom: 10px;
+}
 .wd-course-navigation a {
   padding-left: 10px;
   margin-bottom: 10px;

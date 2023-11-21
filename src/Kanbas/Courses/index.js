@@ -6,7 +6,7 @@ import CourseNavigation from "./CourseNavigation";
 import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
-import AssignmentEditor from "./Assignments/AssignmentEditor";
+import AssignmentEditor from "./Assignments/assignmentReducer";
 import Grades from "./Grades";
 
 function Courses() {
