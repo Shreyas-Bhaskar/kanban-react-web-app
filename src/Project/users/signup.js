@@ -20,15 +20,21 @@ function Signup() {
       <h1>Signup</h1>
       {error && <div>{error}</div>}
       <input
-        value={credentials.username}
-        onChange={(e) => setCredentials({
-          ...credentials,
-          username: e.target.value })} />
-      <input
-        value={credentials.password}
-        onChange={(e) => setCredentials({
-          ...credentials,
-          password: e.target.value })} />
+  type="text"
+  value={credentials.username}
+  onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
+  placeholder="Username"
+  style={{ border: '2px solid black' }}
+/>
+<br />
+<input
+  type="password"
+  value={credentials.password}
+  onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+  placeholder="Password"
+  style={{ border: '2px solid black' }}
+/>
+<br/>
       <button onClick={signup}>
         Signup
       </button>

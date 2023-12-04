@@ -25,14 +25,23 @@ function Signin() {
     <div>
       <h1>Signin</h1>
       {error && <div className="error-message">{error}</div>}
-      <input 
-        value={credentials.username} 
-        onChange={(e) => setCredentials({...credentials, username: e.target.value})}
-      />
-      <input 
-        value={credentials.password} 
-        onChange={(e) => setCredentials({...credentials, password: e.target.value})}
-      />
+      <input
+  type="text"  // Specify the input type as text for both fields
+  value={credentials.username}
+  onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
+  placeholder="Username"  // Add a placeholder for the username
+  style={{ border: '2px solid black' }}  // Apply a bolder border using inline styles
+/>
+<br />
+<input
+  type="password"  // Specify the input type as password for the password field
+  value={credentials.password}
+  onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+  placeholder="Password"  // Add a placeholder for the password
+  style={{ border: '2px solid black' }}  // Apply a bolder border using inline styles
+/>
+<br />
+
       <button onClick={signin}>Signin</button>
     </div>
   );
